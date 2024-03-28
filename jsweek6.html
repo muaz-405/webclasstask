@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Georgia, Georgia;
+            background-image: url('https://img.freepik.com/free-photo/fresh-fruits-arrangement-top-view_23-2148949745.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709683200&semt=ais'); /* Replace 'path_to_your_image.jpg' with the actual path to your image file */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            margin: 50px;
+            padding: 50px;
+        }
+
+        #myinput {
+            margin-bottom: 30px;
+            padding: 4px;
+        }
+
+        button {
+            padding: 1px 10px;
+            cursor: pointer;
+            background-color: #1076e2;
+            color: #000000;
+            border: 
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+
+        button:hover {
+            background-color: #e9edf1;
+        }
+
+        .deleteBtn {
+            background-color: #080808;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            padding: px 20px;
+            margin-left: 10px;
+        }
+
+        .deleteBtn:hover {
+            background-color: #e11025;
+        }
+
+        #dos {
+            list-style-type: decimal-leading-zero;
+            padding: 1px;
+            color: #000000;
+        }
+
+        #dos li {
+            margin-bottom: 5px;
+            background-color: #e6d4d4;
+            padding: 4px;
+            border-radius: 10px;
+        }
+    </style>
+    <script src="jsweek6.js" defer></script>
+</head>
+
+<body>
+    <input type="text" id="myinput">
+    <button id="btnAdd">To Do</button>
+    <button id="btnbing">btn</button>
+    <button id="fruit">Add Fruits</button>
+    <ul id="dos">
+        <li>Banana <button class="deleteBtn">Delete</button></li>
+        <li>Apple <button class="deleteBtn">Delete</button></li>
+        <li>Pine Apple <button class="deleteBtn">Delete</button></li>
+        <li>FruitChart <button class="deleteBtn">Delete</button></li>
+    </ul>
+</body>
+</html>
